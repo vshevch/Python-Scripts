@@ -1,0 +1,2 @@
+.reindex(list) - will leave leave only the rows that are in the new index.
+https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.reindex.html
