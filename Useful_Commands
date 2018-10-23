@@ -4,6 +4,9 @@ https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.reindex.
 # For working with dict
 dict.items() <- creates a list of items
 for idx, vals in k_rmse_result.items(): <- extracts two values from dictionary - idx and values
-vals.keys <- extracts keys from dictionary values
+vals.keys() <- extracts keys from dictionary values
+vals.values() <- extracts keys from dictionary values
 
-
+# Creating Ordered Dictionary 
+from collections import OrderedDict 
+df = OrderedDict()
